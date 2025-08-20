@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #222831;
+    color: #DFD0B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: #948979;
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    border: 2px solid #DFD0B8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo img {
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+
+.title {
+    font-family: "Plaster", system-ui;
+    font-weight: 300;
+    color: #393E46;
+    margin-bottom: 20px;
+}
+
+#message-identifier {
+    background-color: #222831;
+    width: 85%;
+    height: 37px;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #A5BFCC;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#message-identifier:active {
+    border: 2px solid #DFD0B8;
+}
+#message-identifier:focus-visible {
+    border: 0;
+    outline: 2px solid #DFD0B8;
+}
+
+#input-message {
+    width: 85%;
+    min-height: 60px;
+    max-height: 175px;
+    padding: 7px;
+    background-color: #222831;
+    /* color: #DFD0B8; */
+    color: #A5BFCC;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    resize: none;
+}
+#input-message::-webkit-scrollbar {
+    background-color: #393E46;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#input-message::-webkit-scrollbar-thumb {
+    background-color: #DFD0B8;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #393E46;
+}
+#input-message:active {
+    border: 2px solid #DFD0B8;
+}
+#input-message:focus-visible {
+    border: 0;
+    outline: 2px solid #DFD0B8;
+    /* outline: none; */
+}
+
+.btn-submit-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: "Merienda", cursive;
+    font-weight: 500;
+    background-color: #222831;
+    color: #DFD0B8;
+    border: 2px solid #222831;
+}
+button:hover {
+    background-color: #948979;
+    color: #222831;
+}
+
+.qr-image-container {
+    background-image: url(/public/Images/qr-background.jpeg);
+    background-size: cover;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qr-image-box {
+    background-color: #A5BFCC;
+    /* height: 80%;
+    width: 80%; */
+}

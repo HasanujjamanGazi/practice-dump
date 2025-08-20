@@ -1,0 +1,29 @@
+COLOUR-PALETTE 
+#222831
+#393E46
+#948979
+#DFD0B8
+
+FONT-FAMILY - MAIN
+"Plaster", system-ui
+"Merienda", cursive
+"Poppins", sans-serif
+
+FONT-FAMILY - DECORATIONS
+"Shizuru", system-ui
+"Cherry Bomb One", system-ui
+"Stylish", sans-serif
+"Sarina", cursive
+
+- IDEAS
+- - ANIMATION - BODY
+- - - BODY BACKGROUND - Chinees charecters falling and bounsing after hiting the boundaries.
+- - - BODY BACKGROUND - After clicking GENERATE the charecters will bouns towards edges.
+- - DESIGN - CONTAINER
+- - - CONTAINER - TOP - At the top of the container add my name "Panna Gazi" in "Sarina", cursive.
+- - DESIGN - BUTTONS
+- - - BUTTON - GENERATE - Beside the button - a animal charecter thinking.
+- - - BUTTON - GENERATING - Beside the button - a animal charecter Dancing.
+- - - BUTTON - GENERATED - At the top - a animal charecter feeling proud.
+- - ANIMATION - BUTTONS
+- - - BUTTON - CLICKED - On button Click it will have a very cute bubbly bounce effect.
